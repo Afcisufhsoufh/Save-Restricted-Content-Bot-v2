@@ -73,16 +73,16 @@ async def token_handler(client, message):
     msg = await app.get_messages(chat_id, 796)
     user_id = message.chat.id
     if len(message.command) <= 1:
-        image_url = "https://i.postimg.cc/v8q8kGyz/startimg-1.jpg"
-        join_button = InlineKeyboardButton("Join Channel", url="https://t.me/team_spy_pro")
-        premium = InlineKeyboardButton("Get Premium", url="https://t.me/kingofpatal")   
+        image_url = "https://t.me/BotsDevZone/259"
+        join_button = InlineKeyboardButton("Join Channel", url="https://t.me/Modvip_rm")
+        premium = InlineKeyboardButton("Get Premium", url="https://t.me/abirxdhackz")   
         keyboard = InlineKeyboardMarkup([
             [join_button],   
             [premium]    
         ])
          
         await message.reply_photo(
-            msg.photo.file_id,
+            image_url,
             caption=(
                 "Hi 👋 Welcome, Wanna intro...?\n\n"
                 "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
