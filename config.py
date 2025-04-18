@@ -32,7 +32,7 @@ YTUB_COOKIES = """
 
 API_ID = int(getenv("API_ID", "28239710"))
 API_HASH = getenv("API_HASH", "7fc5b35692454973318b86481ab5eca3")
-BOT_TOKEN = getenv("BOT_TOKEN", "7809622003:AAGnBd0wkHuMo88DyW0VF-GrHQdUc3I9ylI")
+BOT_TOKEN = getenv("BOT_TOKEN", "7743812237:AAHQKj2retLdgfn7rq1DN6kICMDaBcx4UZQ")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "7303810912").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://ytpremium4434360:zxx1VPDzGW96Nxm3@itssmarttoolbot.dhsl4.mongodb.net/?retryWrites=true&w=majority&appName=ItsSmartToolBot")
 LOG_GROUP = getenv("LOG_GROUP", "-1002224822353")
