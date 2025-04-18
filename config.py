@@ -30,9 +30,9 @@ YTUB_COOKIES = """
 .youtube.com	TRUE	/	TRUE	1779501681	PREF	tz=Asia.Dhaka&f6=40000000
 """
 
-API_ID = int(getenv("API_ID", "28239710"))
-API_HASH = getenv("API_HASH", "7fc5b35692454973318b86481ab5eca3")
-BOT_TOKEN = getenv("BOT_TOKEN", "7743812237:AAHQKj2retLdgfn7rq1DN6kICMDaBcx4UZQ")
+API_ID = int(getenv("API_ID", "28820919"))
+API_HASH = getenv("API_HASH", "eb471196bf8c84f34bcc6d607a130b7e")
+BOT_TOKEN = getenv("BOT_TOKEN", "7723945734:AAEyRdIRWopLBjmReknBis2lzTLY4ZyObno")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "7303810912").split()))
 MONGO_DB = getenv("MONGO_DB", "mongodb+srv://ytpremium4434360:zxx1VPDzGW96Nxm3@itssmarttoolbot.dhsl4.mongodb.net/?retryWrites=true&w=majority&appName=ItsSmartToolBot")
 LOG_GROUP = getenv("LOG_GROUP", "-1002224822353")
