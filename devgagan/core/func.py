@@ -4,7 +4,7 @@
 #              and uploading them back to Telegram.
 # Author: Gagan
 # GitHub: https://github.com/devgaganin/
-# Telegram: https://t.me/team_spy_pro
+# Telegram: https://t.me/TheSmartDev
 # YouTube: https://youtube.com/@dev_gagan
 # Created: 2025-01-11
 # Last Modified: 2025-01-11
@@ -250,7 +250,7 @@ async def progress_callback(current, total, progress_message):
     f"│ **__Progress:__** {percent:.2f}%\n"
     f"│ **__Uploaded:__** {current_mb:.2f} MB / {total_mb:.2f} MB\n"
     f"╰──────────────────╯\n\n"
-    f"**__Powered by Team SPY__**"
+    f"**__Powered by __**"
         )
 
         last_update_time = current_time
